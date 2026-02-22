@@ -1,24 +1,10 @@
+# DEVELOPMENT MODE - DO NOT INDEX
+# All search engines and bots are blocked until site is ready for launch
+
 User-agent: *
-Allow: /
+Disallow: /
 
-# Sitemap location
-Sitemap: https://www.visibleposition.com/sitemap.xml
-
-# Allow all major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-# Block access to any private or sensitive areas (none for this site)
-# Disallow: /private/
-
-# Crawl delay (optional - remove if not needed)
-# Crawl-delay: 1
+# When ready to launch, replace the above with:
+# User-agent: *
+# Allow: /
+# Sitemap: https://www.visibleposition.com/sitemap.xml
